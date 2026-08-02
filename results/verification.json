@@ -1,0 +1,98 @@
+{
+  "artifact_sha256": {
+    "climbmix_code_free_weights.json": "76e82e22760adcac59c7294fe9bac11358f5a8b7a26035aae64c3f2e6fa1acb7",
+    "independent_sample_audit.json": "a9d7d5c90961910d00b4e7bce26f1222b9a80ee1e9053e9916d5bd3eec0850ac",
+    "mixture_progress.json": "b1a0b42bffbbb30a989ae3b9b82b29e4083ac546a59d6b8b972dc8e0561ba6bd",
+    "mixture_report.json": "52d06f27dd5ed034504a9656cb664d3ded57cd073cc647eca332021cf5bbd07f",
+    "work_plan.json": "f8e24d26f0607431fb2295b65eb1b2edbf6b2343f7528df68364c8241ba0dd3c"
+  },
+  "audit_date": "2026-08-02",
+  "external_crosscheck": {
+    "comparison": "all 20 per-cluster document counts exactly equal",
+    "dataset": "gvlassis/ClimbMix",
+    "difference": "That public artifact reports document-weighted ratios; this repository reports source-token-weighted totals and conditioned weights.",
+    "document_total": 553315056,
+    "url": "https://huggingface.co/datasets/gvlassis/ClimbMix"
+  },
+  "results": {
+    "accepted_source_tokens": 351792454745,
+    "all_source_tokens": 356864528972,
+    "excluded_cluster_11_source_tokens": 5072074227,
+    "excluded_cluster_11_token_percent": 1.421288,
+    "records": 553315056,
+    "report_canonical_self_hash": "a8b52650e4001dee957cfd9a13cab2a4daacdb58bf1229a0f8ff38f51b035d47",
+    "weights_sha256": "76e82e22760adcac59c7294fe9bac11358f5a8b7a26035aae64c3f2e6fa1acb7",
+    "work_plan_self_hash": "a09e74aea4308528a0035d517d6987a47f7fb0021aa867252f1831a7df82a601"
+  },
+  "run": {
+    "duration_seconds": 352826,
+    "errors": 0,
+    "exhausted_retries": 0,
+    "exit_code": 0,
+    "finished_at_utc": "2026-08-01T18:53:48+00:00",
+    "implementation_commit": "937fbebbeb6dfbc2ca3e5755aeeed3b87004b5af",
+    "max_in_flight_work_items": 16,
+    "started_at_utc": "2026-07-28T16:53:22+00:00",
+    "tracebacks": 0,
+    "transient_first_attempt_network_warnings": 84,
+    "work_items_completed": 7457,
+    "workers": 8
+  },
+  "scope_and_limitations": [
+    "The full scan sums the official token_count field without materializing every tokens array.",
+    "The token_count-versus-token-array relationship is independently sample-checked, not exhaustively recounted for all 553,315,056 records.",
+    "The result is exact only for the pinned source revision and root part_*.tokenized.jsonl files.",
+    "Excluding cluster 11 means programming-cluster-excluded, not guaranteed code-free.",
+    "Cluster labels are broad source metadata and are not independently reclassified here."
+  ],
+  "source": {
+    "dataset": "nvidia/Nemotron-ClimbMix",
+    "revision": "5eaa64b9c0c85b7f56af01d7dffdb0795816b12b",
+    "source_bytes": 1987970304099,
+    "source_files": 100,
+    "source_glob": "part_*.tokenized.jsonl"
+  },
+  "status": "PASS",
+  "verification_layers": [
+    {
+      "details": "Raw SHA-256 values, canonical report self-hash, work-plan self-hash, cross-artifact hashes, exact source-byte coverage, all 20 positive cluster totals, accepted-weight equality, and cluster-11 exclusion all verified.",
+      "name": "offline artifact verification",
+      "result": "PASS"
+    },
+    {
+      "details": "The Hugging Face tree API was re-read at the immutable revision on 2026-08-02; all 100 paths and sizes exactly matched the published report and summed to 1,987,970,304,099 bytes.",
+      "name": "pinned remote metadata re-resolution",
+      "result": "PASS"
+    },
+    {
+      "details": "31 tests passed for adjacent-range exact-once ownership, long records crossing many regions, EOF without newline, deterministic work-plan coverage/hash, metadata fail-closed behavior, interrupted/resumed byte equivalence, drift rejection, and HTTP range retry/content-range checks.",
+      "name": "focused implementation tests",
+      "result": "PASS"
+    },
+    {
+      "details": "A completed --resume on a copied output directory returned identical hashes for all four calibration artifacts.",
+      "name": "completed resume idempotence",
+      "result": "PASS"
+    },
+    {
+      "details": "The extracted public package loaded a copied completed calibration with --resume and left all four calibration artifact hashes byte-identical.",
+      "name": "public-package completed resume",
+      "result": "PASS"
+    },
+    {
+      "details": "1,000 complete records, 10 from each of all 100 pinned source files, were fully JSON-parsed; token_count equaled len(tokens) and every sampled token ID was within GPT-2 bounds. Zero mismatches.",
+      "name": "independent token-array sample",
+      "result": "PASS"
+    },
+    {
+      "details": "All 20 per-cluster document counts exactly match the independently published gvlassis/ClimbMix counts; both total 553,315,056 documents.",
+      "name": "external document-count cross-check",
+      "result": "PASS"
+    },
+    {
+      "details": "Calibration implementation and focused tests are byte-identical between the run commit and the documentation/publication commit, excluding public-package import/name adaptations.",
+      "name": "implementation drift check",
+      "result": "PASS"
+    }
+  ]
+}

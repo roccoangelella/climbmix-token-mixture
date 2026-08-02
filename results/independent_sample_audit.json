@@ -1,0 +1,631 @@
+{
+  "clusters_observed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "dataset": "nvidia/Nemotron-ClimbMix",
+  "files_checked": 100,
+  "method": "For each of all 100 pinned source files, choose a deterministic SHA-256-derived byte offset, fetch a 512 KiB HTTP Range from the immutable revision, discard partial boundary lines, fully JSON-parse 10 complete records, and verify cluster_id, GPT-2 token ID bounds, and token_count == len(tokens).",
+  "mismatch_count": 0,
+  "mismatches": [],
+  "records_checked": 1000,
+  "revision": "5eaa64b9c0c85b7f56af01d7dffdb0795816b12b",
+  "samples": [
+    {
+      "bytes": 524288,
+      "offset": 2622262707,
+      "path": "part_0.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 9208750117,
+      "path": "part_1.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 11118015076,
+      "path": "part_10.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 11469409409,
+      "path": "part_11.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 22201419355,
+      "path": "part_12.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 16701454788,
+      "path": "part_13.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 9693112420,
+      "path": "part_14.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 4284997944,
+      "path": "part_15.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 1835358119,
+      "path": "part_16.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 4761891817,
+      "path": "part_17.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 16240665760,
+      "path": "part_18.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 10335852687,
+      "path": "part_19.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 1833479583,
+      "path": "part_2.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 9323387907,
+      "path": "part_20.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 17410680502,
+      "path": "part_21.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 18825981289,
+      "path": "part_22.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 13086385831,
+      "path": "part_23.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 5067305995,
+      "path": "part_24.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 3322966976,
+      "path": "part_25.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 8748027971,
+      "path": "part_26.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 9691606813,
+      "path": "part_27.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 19287436048,
+      "path": "part_28.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 1042595991,
+      "path": "part_29.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 13859358117,
+      "path": "part_3.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 22430277498,
+      "path": "part_30.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 12633636534,
+      "path": "part_31.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 20240944321,
+      "path": "part_32.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 8491522353,
+      "path": "part_33.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 4005153742,
+      "path": "part_34.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 7905381025,
+      "path": "part_35.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 7530101731,
+      "path": "part_36.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 11447211539,
+      "path": "part_37.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 3017317310,
+      "path": "part_38.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 5449261877,
+      "path": "part_39.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 5333793202,
+      "path": "part_4.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 6024741351,
+      "path": "part_40.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 9038108139,
+      "path": "part_41.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 4927357902,
+      "path": "part_42.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 5478459078,
+      "path": "part_43.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 16079015518,
+      "path": "part_44.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 3509709040,
+      "path": "part_45.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 16078793687,
+      "path": "part_46.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 5373973642,
+      "path": "part_47.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 11513094896,
+      "path": "part_48.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 12792056113,
+      "path": "part_49.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 1722630688,
+      "path": "part_5.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 11190700980,
+      "path": "part_50.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 15582845550,
+      "path": "part_51.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 7617644490,
+      "path": "part_52.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 15705721451,
+      "path": "part_53.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 17207537106,
+      "path": "part_54.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 13882018918,
+      "path": "part_55.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 6632537644,
+      "path": "part_56.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 14816621114,
+      "path": "part_57.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 1997474387,
+      "path": "part_58.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 3137942169,
+      "path": "part_59.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 3732139629,
+      "path": "part_6.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 6216719343,
+      "path": "part_60.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 1251397318,
+      "path": "part_61.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 1133287457,
+      "path": "part_62.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 10467577758,
+      "path": "part_63.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 3716564351,
+      "path": "part_64.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 9983879303,
+      "path": "part_65.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 7677728383,
+      "path": "part_66.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 12252604926,
+      "path": "part_67.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 3092208298,
+      "path": "part_68.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 15695250831,
+      "path": "part_69.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 13520738252,
+      "path": "part_7.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 10125083819,
+      "path": "part_70.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 7268531918,
+      "path": "part_71.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 9988794171,
+      "path": "part_72.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 5946156778,
+      "path": "part_73.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 6267506674,
+      "path": "part_74.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 9724271817,
+      "path": "part_75.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 3329634777,
+      "path": "part_76.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 9708949975,
+      "path": "part_77.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 3963493040,
+      "path": "part_78.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 796683958,
+      "path": "part_79.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 9214068910,
+      "path": "part_8.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 6565528806,
+      "path": "part_80.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 3722056528,
+      "path": "part_81.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 19657845282,
+      "path": "part_82.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 12577408267,
+      "path": "part_83.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 10740464240,
+      "path": "part_84.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 18786552295,
+      "path": "part_85.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 11726067070,
+      "path": "part_86.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 5021811867,
+      "path": "part_87.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 19783128446,
+      "path": "part_88.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 961258120,
+      "path": "part_89.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 10454042675,
+      "path": "part_9.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 4410755081,
+      "path": "part_90.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 12605816676,
+      "path": "part_91.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 2359682562,
+      "path": "part_92.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 10582147248,
+      "path": "part_93.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 4770105585,
+      "path": "part_94.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 6795607553,
+      "path": "part_95.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 3241056187,
+      "path": "part_96.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 15504062892,
+      "path": "part_97.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 6888360073,
+      "path": "part_98.tokenized.jsonl",
+      "records_checked": 10
+    },
+    {
+      "bytes": 524288,
+      "offset": 8301401544,
+      "path": "part_99.tokenized.jsonl",
+      "records_checked": 10
+    }
+  ]
+}

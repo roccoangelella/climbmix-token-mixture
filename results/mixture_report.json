@@ -1,0 +1,486 @@
+{
+  "accepted_cluster_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "accepted_source_tokens": 351792454745,
+  "all_cluster_document_counts": {
+    "1": 4785103,
+    "10": 40603579,
+    "11": 8630635,
+    "12": 142111098,
+    "13": 5004064,
+    "14": 1530996,
+    "15": 1296383,
+    "16": 40297278,
+    "17": 38854459,
+    "18": 12586375,
+    "19": 6437288,
+    "2": 6684586,
+    "20": 2811316,
+    "3": 8003099,
+    "4": 21348980,
+    "5": 10450928,
+    "6": 98368523,
+    "7": 92561323,
+    "8": 6455507,
+    "9": 4493536
+  },
+  "all_cluster_source_tokens": {
+    "1": 3063924776,
+    "10": 26975813961,
+    "11": 5072074227,
+    "12": 78310785713,
+    "13": 2561634721,
+    "14": 834424339,
+    "15": 804163375,
+    "16": 27851136242,
+    "17": 26785891472,
+    "18": 7392477294,
+    "19": 3836811747,
+    "2": 4582654670,
+    "20": 1862658535,
+    "3": 5771522873,
+    "4": 12797349739,
+    "5": 6563519102,
+    "6": 70958523234,
+    "7": 64041261564,
+    "8": 3818960760,
+    "9": 2978940628
+  },
+  "all_source_tokens": 356864528972,
+  "complete": true,
+  "conditioning_rule": "Production weights are the exact released-corpus token totals for retained clusters, conditioned on excluding cluster 11.",
+  "dataset": "nvidia/Nemotron-ClimbMix",
+  "excluded_cluster_ids": [
+    11
+  ],
+  "record_count": 553315056,
+  "report_sha256": "a8b52650e4001dee957cfd9a13cab2a4daacdb58bf1229a0f8ff38f51b035d47",
+  "revision": "5eaa64b9c0c85b7f56af01d7dffdb0795816b12b",
+  "schema_version": 1,
+  "source_bytes_scanned": 1987970304099,
+  "source_files": [
+    {
+      "path": "part_0.tokenized.jsonl",
+      "size": 20035058093
+    },
+    {
+      "path": "part_1.tokenized.jsonl",
+      "size": 20883851719
+    },
+    {
+      "path": "part_10.tokenized.jsonl",
+      "size": 23461255354
+    },
+    {
+      "path": "part_11.tokenized.jsonl",
+      "size": 20267665934
+    },
+    {
+      "path": "part_12.tokenized.jsonl",
+      "size": 23438336636
+    },
+    {
+      "path": "part_13.tokenized.jsonl",
+      "size": 22391954669
+    },
+    {
+      "path": "part_14.tokenized.jsonl",
+      "size": 22506075096
+    },
+    {
+      "path": "part_15.tokenized.jsonl",
+      "size": 21342655962
+    },
+    {
+      "path": "part_16.tokenized.jsonl",
+      "size": 22375267475
+    },
+    {
+      "path": "part_17.tokenized.jsonl",
+      "size": 21005530297
+    },
+    {
+      "path": "part_18.tokenized.jsonl",
+      "size": 22628136704
+    },
+    {
+      "path": "part_19.tokenized.jsonl",
+      "size": 19163926111
+    },
+    {
+      "path": "part_2.tokenized.jsonl",
+      "size": 22637426055
+    },
+    {
+      "path": "part_20.tokenized.jsonl",
+      "size": 20008419120
+    },
+    {
+      "path": "part_21.tokenized.jsonl",
+      "size": 20880487329
+    },
+    {
+      "path": "part_22.tokenized.jsonl",
+      "size": 19046942151
+    },
+    {
+      "path": "part_23.tokenized.jsonl",
+      "size": 19604407792
+    },
+    {
+      "path": "part_24.tokenized.jsonl",
+      "size": 22067312877
+    },
+    {
+      "path": "part_25.tokenized.jsonl",
+      "size": 32649549086
+    },
+    {
+      "path": "part_26.tokenized.jsonl",
+      "size": 24611238110
+    },
+    {
+      "path": "part_27.tokenized.jsonl",
+      "size": 22270696505
+    },
+    {
+      "path": "part_28.tokenized.jsonl",
+      "size": 21866265934
+    },
+    {
+      "path": "part_29.tokenized.jsonl",
+      "size": 20745085177
+    },
+    {
+      "path": "part_3.tokenized.jsonl",
+      "size": 19465377275
+    },
+    {
+      "path": "part_30.tokenized.jsonl",
+      "size": 22757870815
+    },
+    {
+      "path": "part_31.tokenized.jsonl",
+      "size": 22190883197
+    },
+    {
+      "path": "part_32.tokenized.jsonl",
+      "size": 22615585893
+    },
+    {
+      "path": "part_33.tokenized.jsonl",
+      "size": 22408941578
+    },
+    {
+      "path": "part_34.tokenized.jsonl",
+      "size": 19624447875
+    },
+    {
+      "path": "part_35.tokenized.jsonl",
+      "size": 22068160532
+    },
+    {
+      "path": "part_36.tokenized.jsonl",
+      "size": 20477588557
+    },
+    {
+      "path": "part_37.tokenized.jsonl",
+      "size": 20488656901
+    },
+    {
+      "path": "part_38.tokenized.jsonl",
+      "size": 21523577029
+    },
+    {
+      "path": "part_39.tokenized.jsonl",
+      "size": 20652586165
+    },
+    {
+      "path": "part_4.tokenized.jsonl",
+      "size": 17799437254
+    },
+    {
+      "path": "part_40.tokenized.jsonl",
+      "size": 20633393697
+    },
+    {
+      "path": "part_41.tokenized.jsonl",
+      "size": 22357363631
+    },
+    {
+      "path": "part_42.tokenized.jsonl",
+      "size": 21900843799
+    },
+    {
+      "path": "part_43.tokenized.jsonl",
+      "size": 19115257402
+    },
+    {
+      "path": "part_44.tokenized.jsonl",
+      "size": 17172632346
+    },
+    {
+      "path": "part_45.tokenized.jsonl",
+      "size": 20698421408
+    },
+    {
+      "path": "part_46.tokenized.jsonl",
+      "size": 20492509199
+    },
+    {
+      "path": "part_47.tokenized.jsonl",
+      "size": 20555817672
+    },
+    {
+      "path": "part_48.tokenized.jsonl",
+      "size": 20203821543
+    },
+    {
+      "path": "part_49.tokenized.jsonl",
+      "size": 20161155357
+    },
+    {
+      "path": "part_5.tokenized.jsonl",
+      "size": 18021056465
+    },
+    {
+      "path": "part_50.tokenized.jsonl",
+      "size": 20227292401
+    },
+    {
+      "path": "part_51.tokenized.jsonl",
+      "size": 20680398952
+    },
+    {
+      "path": "part_52.tokenized.jsonl",
+      "size": 20528372708
+    },
+    {
+      "path": "part_53.tokenized.jsonl",
+      "size": 19096381865
+    },
+    {
+      "path": "part_54.tokenized.jsonl",
+      "size": 17719432467
+    },
+    {
+      "path": "part_55.tokenized.jsonl",
+      "size": 18430217944
+    },
+    {
+      "path": "part_56.tokenized.jsonl",
+      "size": 19785861286
+    },
+    {
+      "path": "part_57.tokenized.jsonl",
+      "size": 19110834118
+    },
+    {
+      "path": "part_58.tokenized.jsonl",
+      "size": 20414153312
+    },
+    {
+      "path": "part_59.tokenized.jsonl",
+      "size": 17641092230
+    },
+    {
+      "path": "part_6.tokenized.jsonl",
+      "size": 19118348769
+    },
+    {
+      "path": "part_60.tokenized.jsonl",
+      "size": 20530955059
+    },
+    {
+      "path": "part_61.tokenized.jsonl",
+      "size": 19545862962
+    },
+    {
+      "path": "part_62.tokenized.jsonl",
+      "size": 18239473295
+    },
+    {
+      "path": "part_63.tokenized.jsonl",
+      "size": 16963736919
+    },
+    {
+      "path": "part_64.tokenized.jsonl",
+      "size": 19040327577
+    },
+    {
+      "path": "part_65.tokenized.jsonl",
+      "size": 18046151445
+    },
+    {
+      "path": "part_66.tokenized.jsonl",
+      "size": 17425464680
+    },
+    {
+      "path": "part_67.tokenized.jsonl",
+      "size": 14816197934
+    },
+    {
+      "path": "part_68.tokenized.jsonl",
+      "size": 15256175133
+    },
+    {
+      "path": "part_69.tokenized.jsonl",
+      "size": 17109468656
+    },
+    {
+      "path": "part_7.tokenized.jsonl",
+      "size": 19988136323
+    },
+    {
+      "path": "part_70.tokenized.jsonl",
+      "size": 18705033303
+    },
+    {
+      "path": "part_71.tokenized.jsonl",
+      "size": 17100230229
+    },
+    {
+      "path": "part_72.tokenized.jsonl",
+      "size": 17296628355
+    },
+    {
+      "path": "part_73.tokenized.jsonl",
+      "size": 14598945788
+    },
+    {
+      "path": "part_74.tokenized.jsonl",
+      "size": 14426130707
+    },
+    {
+      "path": "part_75.tokenized.jsonl",
+      "size": 16118543824
+    },
+    {
+      "path": "part_76.tokenized.jsonl",
+      "size": 15879182209
+    },
+    {
+      "path": "part_77.tokenized.jsonl",
+      "size": 13621148059
+    },
+    {
+      "path": "part_78.tokenized.jsonl",
+      "size": 14478065343
+    },
+    {
+      "path": "part_79.tokenized.jsonl",
+      "size": 12022569899
+    },
+    {
+      "path": "part_8.tokenized.jsonl",
+      "size": 19896289497
+    },
+    {
+      "path": "part_80.tokenized.jsonl",
+      "size": 14379095269
+    },
+    {
+      "path": "part_81.tokenized.jsonl",
+      "size": 18144330644
+    },
+    {
+      "path": "part_82.tokenized.jsonl",
+      "size": 21659939742
+    },
+    {
+      "path": "part_83.tokenized.jsonl",
+      "size": 20995036604
+    },
+    {
+      "path": "part_84.tokenized.jsonl",
+      "size": 22204441129
+    },
+    {
+      "path": "part_85.tokenized.jsonl",
+      "size": 20694709592
+    },
+    {
+      "path": "part_86.tokenized.jsonl",
+      "size": 21749331433
+    },
+    {
+      "path": "part_87.tokenized.jsonl",
+      "size": 21205612927
+    },
+    {
+      "path": "part_88.tokenized.jsonl",
+      "size": 21027576606
+    },
+    {
+      "path": "part_89.tokenized.jsonl",
+      "size": 22134528044
+    },
+    {
+      "path": "part_9.tokenized.jsonl",
+      "size": 20102923932
+    },
+    {
+      "path": "part_90.tokenized.jsonl",
+      "size": 20567786005
+    },
+    {
+      "path": "part_91.tokenized.jsonl",
+      "size": 21498575811
+    },
+    {
+      "path": "part_92.tokenized.jsonl",
+      "size": 22267228501
+    },
+    {
+      "path": "part_93.tokenized.jsonl",
+      "size": 21145384518
+    },
+    {
+      "path": "part_94.tokenized.jsonl",
+      "size": 21089736055
+    },
+    {
+      "path": "part_95.tokenized.jsonl",
+      "size": 20642699131
+    },
+    {
+      "path": "part_96.tokenized.jsonl",
+      "size": 19218328322
+    },
+    {
+      "path": "part_97.tokenized.jsonl",
+      "size": 16363486917
+    },
+    {
+      "path": "part_98.tokenized.jsonl",
+      "size": 19220957645
+    },
+    {
+      "path": "part_99.tokenized.jsonl",
+      "size": 18528562248
+    }
+  ],
+  "source_glob": "part_*.tokenized.jsonl",
+  "weights_file": "climbmix_code_free_weights.json",
+  "weights_sha256": "76e82e22760adcac59c7294fe9bac11358f5a8b7a26035aae64c3f2e6fa1acb7",
+  "work_plan_hash": "a09e74aea4308528a0035d517d6987a47f7fb0021aa867252f1831a7df82a601"
+}

@@ -1,0 +1,3 @@
+[console_scripts]
+climbmix-mixture = climbmix_mixture.cli:main
+climbmix-verify = climbmix_mixture.verify:main
